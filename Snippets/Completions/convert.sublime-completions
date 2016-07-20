@@ -1,0 +1,14 @@
+{
+    "scope": "source.nut",
+
+    "completions": [
+        {"trigger": ".tofloat", "contents": ".tofloat()"},
+        {"trigger": ".tostring", "contents": ".tostring()"},
+        {"trigger": ".tointeger", "contents": ".tointeger()"},
+        {"trigger": ".tochar", "contents": ".tochar()"},
+        {"trigger": ".tolower", "contents": ".tolower()"},
+        {"trigger": ".toupper", "contents": ".toupper()"},
+        {"trigger": ".slice", "contents": ".slice(${1:start}${2:, [end]})"},
+        {"trigger": "split", "contents": "split(${1:str}, ${2:separators})"},
+    ]
+}

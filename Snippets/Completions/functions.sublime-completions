@@ -1,0 +1,12 @@
+{
+    "scope": "source.nut",
+
+    "completions": [
+        {"trigger": "print", "contents": "print($1)"},
+        {"trigger": "error", "contents": "error($1)"},
+        {"trigger": "array", "contents": "array(${1:size}${2:, [fill]})"},
+        {"trigger": "format", "contents": "format(\"$1\", $2)"},
+        {"trigger": "compilestring", "contents": "compilestring(${1:string}${2:, [buffername]})"},
+        {"trigger": "getstackinfos", "contents": "getstackinfos(${1:level})"},
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "scope": "source.nut",
+
+    "completions": [
+        {"trigger": ".len", "contents": ".len()"},
+        {"trigger": ".find", "contents": ".find($1)"},
+    ]
+}

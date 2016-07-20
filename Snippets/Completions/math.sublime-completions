@@ -1,0 +1,24 @@
+{
+    "scope": "source.nut",
+
+    "completions": [
+        {"trigger": "abs", "contents": "abs($1)"},
+        {"trigger": "acos", "contents": "acos($1)"},
+        {"trigger": "asin", "contents": "asin($1)"},
+        {"trigger": "atan", "contents": "atan($1)"},
+        {"trigger": "atan2", "contents": "atan2($1, $2)"},
+        {"trigger": "ceil", "contents": "ceil($1)"},
+        {"trigger": "cos", "contents": "cos($1)"},
+        {"trigger": "exp", "contents": "exp($1)"},
+        {"trigger": "fabs", "contents": "fabs($1)"},
+        {"trigger": "floor", "contents": "floor($1)"},
+        {"trigger": "log", "contents": "log($1)"},
+        {"trigger": "log10", "contents": "log10($1)"},
+        {"trigger": "pow", "contents": "pow($1)"},
+        {"trigger": "rand", "contents": "rand()"},
+        {"trigger": "sin", "contents": "sin($1)"},
+        {"trigger": "sqrt", "contents": "sqrt($1)"},
+        {"trigger": "srand", "contents": "srand(${1:seed})"},
+        {"trigger": "tan", "contents": "tan($1)"},
+    ]
+}
