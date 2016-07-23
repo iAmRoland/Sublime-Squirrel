@@ -51,5 +51,7 @@ Open up your Sublime Text packages directory and clone the repository using the 
 
 ### File Download
 Go to the downloads section and download as ZIP. 
+
 Open up your Sublime Text packages directory and the downloaded ZIP. 
+
 Extract the contents of the ZIP into that directory and rename Sublime-Squirrel to Squirrel.
