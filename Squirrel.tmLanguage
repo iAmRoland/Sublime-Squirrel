@@ -106,13 +106,13 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(print|error|format|time|date|srand|rand|dofile|file|abs|acos|asin|atan|atan2|ceil|cos|exp|fabs|floor|log|log10|pow|sin|sqrt|tan|regexp|lstrip|rstrip|split|array|getroottable|getconsttable|compilestring|type|getstackinfos|instance|getclass|system)\b</string>
+            <string>(?:(print|error|format|time|date|srand|rand|dofile|file|abs|acos|asin|atan|atan2|ceil|cos|exp|fabs|floor|log|log10|pow|sin|sqrt|tan|regexp|lstrip|rstrip|split|array|getroottable|getconsttable|compilestring|type|getstackinfos|instance|getclass|system)\s*(?=\())</string>
             <key>name</key>
             <string>support.function.squirrel</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>\.(len|tofloat|tostring|tointeger|tochar|slice|find|tolower|toupper|rawget|rawset|rawin|rawdelete|clear|append|push|extend|pop|top|insert|remove|resize|sort|reverse|map|apply|find|capture|match|search)</string>
+            <string>(?:(?&lt;=\.)\s*(len|tofloat|tostring|tointeger|tochar|slice|find|tolower|toupper|rawget|rawset|rawin|rawdelete|clear|append|push|extend|pop|top|insert|remove|resize|sort|reverse|map|apply|find|capture|match|search)\s*(?=\())</string>
             <key>name</key>
             <string>support.function.squirrel</string>
         </dict>
