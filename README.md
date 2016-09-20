@@ -18,10 +18,18 @@ It's not perfect and many sections can probably be improved upon but it works, s
 Feel free to improve where needed and share!
 
 ## Installation
-There are 2 ways to install it.
+There are 3 ways to install it.
 
+* Package Control
 * Git Clone
 * File Download
+
+### Package Control
+1. Open Sublime
+2. Install [Package Control](https://packagecontrol.io/installation)
+3. Press Ctrl + Shift + P
+4. Type in "install" and press enter on "Package Control: Install Package"
+5. Type in "Squirrel" and press enter
 
 ### Git Clone
 I'm on Windows, so OS X and Ubuntu might not be 100% correct.
