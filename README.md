@@ -13,7 +13,7 @@ I tried my best to expand the original repo a bit more and add a little structur
 
 ## Note
 Editing and messing around with these files is not in my area of expertise. I really wanted better support for the Squirrel highlighting in Sublime so I took a stab at it. 
-It's not perfect and many sections can probably be improved upon but it works, so i'm happy with it for now. 
+It's not perfect and many sections can probably be improved upon but it works, so I'm happy with it for now. 
 
 Feel free to improve where needed and share!
 
@@ -27,7 +27,7 @@ There are 3 ways to install it.
 ### Package Control
 1. Open Sublime
 2. Install [Package Control](https://packagecontrol.io/installation)
-3. Press Ctrl + Shift + P
+3. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
 4. Type in "install" and press enter on "Package Control: Install Package"
 5. Type in "Squirrel" and press enter
 
